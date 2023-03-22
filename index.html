@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurfMares</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <style>
+        .img {
+            height: 40vh;
+            width: 60vw;
+            object-fit: center;
+        }
+        .img2 {
+            height: 60vh;
+            width: 30vw;
+            object-fit: center;
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Surf Marés</h1>
+
+<div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+</div>
+
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+    <input type="submit" value="Sign in">
+
+    <img src="https://ciorg.imgix.net/images/default-source/temp/img_09088262b786-b878-42cb-92f5-a91b3ad8fdb2?&auto=compress&auto=format&fit=crop&w=1445&h=813" alt="Surf" class="img">
+
+    <h2>Tabúa de Marés</h2>
+
+    <p>Aqui você encontra as tabúas de marés para você se programar para seu Surf</p>
+
+    <form>
+        <p><label>Data e hora do Surf <input type="datetime" name="dateAndTime"></label></p>
+        <p><button type="submit">Submeter</button></p>
+    </form>
+
+    <textarea name="informativo" id="informativo" cols="50" rows="10">As marés são movimentos oceânicos que ocorrem graças à atração gravitacional do Sol e da Lua sobre a água dos mares.</textarea>
+
+    
+
+    <form>
+        <p><label>Cidade <input type="search" name="query"></label></p>
+        <p><button type="submit">Submeter</button></p>
+    </form>
+
+    <img src="https://www.oaksurfracks.com.br/wp-content/uploads/2022/05/DSC_0025.jpg" class= "img2" alt="prancha" srcset="">
+    
+    <form>
+        <label>Qual dos esporte abaixo você pratica?</label>
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Surf
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Windsurf
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> Esqui Aquático
+    </form>
+
+    <form>
+        <label>Qual melhor horário para você praticar seu esporte?</label>
+        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Manhã
+        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Tarde
+    </form>
+
+    <form>
+        <label>Você tem mais de 18 anos?</label>
+        <select name="maioridade">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+    </form>
+
+    <form>
+        <label>Sua opinião é bem vinda para nossa evolução</label>
+        <textarea name="informativo" id="informativo" cols="50" rows="10"></textarea>
+        <INPUT TYPE="submit" VALUE="Envia Mensagem">
+        <INPUT TYPE="reset" VALUE="Cancela">
+    </form>
+
+</body>
+
+<footer><b>Página produzida por nrmendfweb</b></footer>
+
+</html>
